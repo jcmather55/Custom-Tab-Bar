@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A302BAC281EADC50061F40D /* TestProject0105.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject0105.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A302BAC281EADC50061F40D /* Tab_Btm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tab_Btm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A302BAF281EADC50061F40D /* TestProject0105App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProject0105App.swift; sourceTree = "<group>"; };
 		7A302BB1281EADC50061F40D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A302BB3281EADC60061F40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		7A302BAD281EADC50061F40D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A302BAC281EADC50061F40D /* TestProject0105.app */,
+				7A302BAC281EADC50061F40D /* Tab_Btm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A302BAB281EADC50061F40D /* TestProject0105 */ = {
+		7A302BAB281EADC50061F40D /* Tab_Btm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A302BBA281EADC60061F40D /* Build configuration list for PBXNativeTarget "TestProject0105" */;
+			buildConfigurationList = 7A302BBA281EADC60061F40D /* Build configuration list for PBXNativeTarget "Tab_Btm" */;
 			buildPhases = (
 				7A302BA8281EADC50061F40D /* Sources */,
 				7A302BA9281EADC50061F40D /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = TestProject0105;
+			name = Tab_Btm;
 			productName = TestProject0105;
-			productReference = 7A302BAC281EADC50061F40D /* TestProject0105.app */;
+			productReference = 7A302BAC281EADC50061F40D /* Tab_Btm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7A302BA7281EADC50061F40D /* Build configuration list for PBXProject "TestProject0105" */;
+			buildConfigurationList = 7A302BA7281EADC50061F40D /* Build configuration list for PBXProject "Actn_Tabs" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A302BAB281EADC50061F40D /* TestProject0105 */,
+				7A302BAB281EADC50061F40D /* Tab_Btm */,
 			);
 		};
 /* End PBXProject section */
@@ -271,19 +271,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestProject0105/Preview Content\"";
+				DEVELOPMENT_TEAM = J9PF4W2Z3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Actn_Tabs;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.TestProject0105;
+				MARKETING_VERSION = 22_10_07;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepalace.Actn-Tabs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,19 +302,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestProject0105/Preview Content\"";
+				DEVELOPMENT_TEAM = J9PF4W2Z3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Actn_Tabs;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepalace.TestProject0105;
+				MARKETING_VERSION = 22_10_07;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepalace.Actn-Tabs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A302BA7281EADC50061F40D /* Build configuration list for PBXProject "TestProject0105" */ = {
+		7A302BA7281EADC50061F40D /* Build configuration list for PBXProject "Actn_Tabs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A302BB8281EADC60061F40D /* Debug */,
@@ -331,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A302BBA281EADC60061F40D /* Build configuration list for PBXNativeTarget "TestProject0105" */ = {
+		7A302BBA281EADC60061F40D /* Build configuration list for PBXNativeTarget "Tab_Btm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A302BBB281EADC60061F40D /* Debug */,
